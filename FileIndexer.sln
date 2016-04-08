@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{E89B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{E6555186-EC5E-488C-8C3C-20ABEB81DAB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIndexer.Wpf", "FileIndexer.Wpf\FileIndexer.Wpf.csproj", "{C21140E1-8480-43B4-B79C-A942C33A7EB1}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIndexer.Helpers", "FileIndexer.Helpers\FileIndexer.Helpers.csproj", "{183C2630-1EF0-4510-B3E2-30DDDD6A4375}"
 EndProject
 Global
