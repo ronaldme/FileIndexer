@@ -7,7 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIndexer.Service", "FileIndexer.Service\FileIndexer.Service.csproj", "{09794E9A-1D85-4E37-B92A-93935C90A9AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIndexer.Console", "FileIndexer.Console\FileIndexer.Console.csproj", "{FDA715D4-E989-4595-813B-F7653215481E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{E89B346A-9F82-49CF-A5F0-2A49B37A61CF}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{E6555186-EC5E-488C-8C3C-20ABEB81DAB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIndexer.Helpers", "FileIndexer.Helpers\FileIndexer.Helpers.csproj", "{183C2630-1EF0-4510-B3E2-30DDDD6A4375}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
