@@ -83,10 +83,9 @@ namespace FileIndexer.Service
             }
         }
 
-        private static List<string> GetDirectoryNames(List<string> mainDirs, string mainDirectory)
+        private static List<string> GetDirectoryNames(List<string> subDirectories, string fullPath)
         {
-            return mainDirs.Select(
-                mainDir => mainDir.Substring(mainDirectory.Length, mainDir.Length - mainDirectory.Length)).ToList();
+            return subDirectories.Select(directory => directory.Substring(fullPath.Length, directory.Length - fullPath.Length)).ToList();
         }
 
         private void DeleteFilesInSyncThatAreNotInMain(string mainDirectory, string syncDirectory, List<string> syncDirs, List<string> mainDirs)
