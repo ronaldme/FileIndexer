@@ -1,0 +1,1 @@
+Sync files from location A to location B, with the option to delete files in location B that are not in A.
