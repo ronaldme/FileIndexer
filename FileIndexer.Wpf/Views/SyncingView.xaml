@@ -1,0 +1,40 @@
+﻿<Window x:Class="FileIndexer.Wpf.Views.SyncingView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileIndexer.Wpf"
+        xmlns:cal="http://www.caliburnproject.org"
+        mc:Ignorable="d"
+        Title="SyncingTool" Height="250" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <Label Content="Main path" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox Name="MainPath" Grid.Row="0" Grid.Column="1" />
+        <Button Name="SelectMainPath" Content="Select" Grid.Row="1" Grid.Column="1" />
+
+        <Label Content="Sync path" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox Name="SyncPath" Grid.Row="2" Grid.Column="1" />
+        <Button Name="SelectSyncPath" Content="Select" Grid.Row="3" Grid.Column="1" />
+
+        <Label Content="Delete files that are not in main" Grid.Row="4" Grid.Column="0" />
+        <RadioButton Name="WithDelete" Grid.Row="4" Grid.Column="1" />
+        
+        <Label Content="Last sync: " Grid.Row="5" Grid.Column="0" />
+        <Label Name="LastSync" Grid.Row="5" Grid.Column="1" />
+        <Button Name="Sync" Content="Sync" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" />
+    </Grid>
+</Window>
